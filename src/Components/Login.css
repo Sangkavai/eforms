@@ -1,0 +1,57 @@
+/* Container Styling */
+.container {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    box-shadow: rgb(87, 27, 27);
+    border-radius: 8px;
+    background-color: #061b30;
+  }
+  
+  h1 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 1rem;
+    border: white;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: lightseagreen;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button[type="button"] {
+    background-color: lightseagreen;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #0056b3;
+  }
+  
+
+    

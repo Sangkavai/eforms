@@ -1,0 +1,96 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Centers vertically */
+  margin: 0;
+}
+
+.register-container {
+  width: 100%;
+  max-width: 500px;
+  background-color: #d18181;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 30px 35px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 18px; /* More spacing between fields */
+}
+
+input, select {
+  padding: 14px; /* Increase padding for larger size */
+  border: 1px solid #fffefe;
+  border-radius: 5px;
+  font-size: 1.1rem; /* Slightly larger font */
+  outline: none;
+  
+}
+
+input:focus, select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+select {
+  background-color: #010000;
+  cursor: pointer;
+}
+
+button {
+  padding: 14px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem; /* Match input field size */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+button:not([type="submit"]) {
+  background-color: #6c757d;
+  color: #ffffff;
+}
+
+button:not([type="submit"]):hover {
+  background-color: #5a6268;
+}
+
+button:focus {
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .register-container {
+    width: 90%;
+    padding: 20px;
+  }
+}
